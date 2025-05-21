@@ -1,0 +1,34 @@
+{
+  "itemTeddyBear": {
+    "Name": "Teddy Bear",
+    "Price": "12.99"
+  },
+  "itemStuffedFrog": {
+    "Name": "Stuffed Frog",
+    "Price": "10.99"
+  },
+  "ItemHandmadeDoll": {
+    "Name": "Handmade Doll",
+    "Price": "10.99"
+  },
+  "ItemFluffyBunny": {
+    "Name": "Fluffy Bunny",
+    "Price": "9.99"
+  },
+  "ItemSmileyBear": {
+    "Name": "Smiley Bear",
+    "Price": "14.99"
+  },
+  "ItemFunnyCow": {
+    "Name": "Funny Cow",
+    "Price": "10.99"
+  },
+  "ItemValentineBear": {
+    "Name": "Valentine Bear",
+    "Price": "14.99"
+  },
+  "ItemSmileyFace": {
+    "Name": "Smiley Face",
+    "Price": "9.99 "
+  }
+}

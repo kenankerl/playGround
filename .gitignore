@@ -1,0 +1,16 @@
+node_modules/
+
+tests-examples/
+
+test-results/
+test-report/
+allure-report/
+allure-results/
+
+/playwright-report/
+/playwright/.cache/
+package-lock.json
+.prettierrc
+test-report/results.xml
+screenshots/
+.DS_Store

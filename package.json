@@ -1,0 +1,29 @@
+{
+  "name": "cma-ui-automation-testing",
+  "version": "1.0.0",
+  "description": "CMA UI Automation Testing Build 02092024",
+  "scripts": {
+    "dev:smoke": "cross-env test_env=sit npx playwright test --workers 3 --headed --grep @smoke --retries 3",
+    "headless_dev:smoke": "cross-env test_env=sit npx playwright test --workers 3 --grep @smoke --retries 3",
+    "dev:cart": "cross-env test_env=sit npx playwright test --workers 3 --headed --grep @cart --retries 3",
+    "dev:report": "cross-env test_env=sit npx playwright test --workers 3 --headed --grep @report --retries 3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "latest",
+    "all": "^0.0.0",
+    "cross-env": "latest",
+    "crypto": "latest",
+    "dotenv": "latest",
+    "fs": "^0.0.1-security",
+    "moment-timezone": "latest",
+    "path": "^0.12.7",
+    "playwright": "^1.52.0",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
